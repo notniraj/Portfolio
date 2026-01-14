@@ -10,7 +10,7 @@ export default function Home() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+            Built and launched Aceternity and Aceternity UI Pro from scratch
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
