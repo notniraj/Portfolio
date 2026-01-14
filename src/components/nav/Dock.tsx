@@ -1,5 +1,5 @@
 
-import { FloatingDock } from "@/components/ui/floating-dock";
+import { FloatingDock } from "@/components/ui/FloatingDock";
 import {
   IconBrandGithub,
   IconBrandLinkedin,
@@ -13,7 +13,7 @@ export function Dock() {
     {
       title: "Home",
       icon: (
-        <IconHome className="h-full w-full text-neutral-800 dark:text-neutral-300" />
+        <IconHome className="h-full w-full text-neutral-50 dark:text-neutral-800" />
       ),
       href: "#",
     },
@@ -21,28 +21,28 @@ export function Dock() {
     {
       title: "Projects",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-800 dark:text-neutral-300" />
+        <IconTerminal2 className="h-full w-full text-neutral-50 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
       title: "Music",
       icon: (
-        <IconMusic className="h-full w-full text-neutral-800 dark:text-neutral-300" />
+        <IconMusic className="h-full w-full text-neutral-50 dark:text-neutral-300" />
       ),
       href: "https://open.spotify.com/artist/226pNqLGRCEBwkLkUltvN4?si=eVMGae6SRb6yWXK_pbd3tA",
     },
     {
       title: "LinkedIn",
       icon: (
-        <IconBrandLinkedin className="h-full w-full text-neutral-800 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-50 dark:text-neutral-300" />
       ),
       href: "https://www.linkedin.com/in/nirajkarkithapa/",
     },
     {
       title: "GitHub",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-800 dark:text-neutral-300" />
+        <IconBrandGithub className="h-full w-full text-neutral-50 dark:text-neutral-300" />
       ),
       href: "https://github.com/notniraj",
     },
